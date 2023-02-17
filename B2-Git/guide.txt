@@ -1,0 +1,21 @@
+- Tạo tài khoản github
+- Tạo repositories
+- Add git vào local
++ git init (khởi tạo git. 1 source chỉ khởi tạo 1 lần)
++ git add . (đẩy tất cả file hiện tại )
++ git commit -m "first commit" (đặt tên cho commit : version)
++ git remote add origin https://github.com/boybeo68/rjs2211.git : link remote vào local 
++ git push --set-upstream origin master
++ git clone {link repositories}: lấy source code về - lần đầu tiên.
++ git add B2-Git/test.txt (tên file)
++ git pull để lấy về 
++ git fetch để check xem có gì mới không ?
++ git status: check sự thay đổi.
+
+
+các lệnh tương tác với terminal
++ cd {tên thư mục} : đi vào 1 thư mục nào đấy
++ cd ..: đi ra khỏi thư mục 
++ ls: list tên thư mục con 
++ ls -a: list tên thư mục con + file
++ pwd: hiển thị đường dẫn đến folder
